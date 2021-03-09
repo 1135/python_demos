@@ -4,6 +4,7 @@
 
 # https://github.com/1135/python_demos
 # 一句话执行命令
+# python2 测试可用
 
 
 import os
